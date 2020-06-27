@@ -13,9 +13,8 @@ const App = () => {
     <ThemeProvider theme={colorsDark}>
       <Router>
         <Switch>
-          <Route exact path="/" component={RedirectToLogin} />
-          <PublicRoute exact path="/register" component={Register} />
-          <PublicRoute exact path="/login" component={Login} />
+          <PublicRoute exact path="/accounts/emailsignup" component={Register} />
+          <PublicRoute exact path="/" component={Login} />
         </Switch>
       </Router>
     </ThemeProvider>

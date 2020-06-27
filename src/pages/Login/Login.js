@@ -1,5 +1,6 @@
 import React from 'react';
 import { Field, reduxForm } from 'redux-form';
+import { Link } from 'react-router-dom';
 
 import {
   LoginForm,
@@ -70,7 +71,7 @@ const Login = props => {
       <LoginForm>
         <div>
           Bạn không có tài khoản?
-          <a href="#"> Đăng kí</a>
+          <Link to="/accounts/emailsignup"> Đăng kí</Link>
         </div>
       </LoginForm>
     </Wrapper>
