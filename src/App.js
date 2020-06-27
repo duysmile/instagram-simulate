@@ -5,8 +5,9 @@ import { colorsDark } from 'styles/palette';
 import PublicRoute from 'hoc/PublicRoute';
 import Register from 'pages/Register'
 import Login from 'pages/Login';
+import Home from 'pages/Home';
 
-const RedirectToLogin = () => (<Redirect to='/login' />);
+import 'font-awesome/css/font-awesome.min.css';
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
       <Router>
         <Switch>
           <PublicRoute exact path="/accounts/emailsignup" component={Register} />
-          <PublicRoute exact path="/" component={Login} />
+          <PublicRoute exact path="/login" component={Login} />
+          <PublicRoute exact path="/" component={Home} />
         </Switch>
       </Router>
     </ThemeProvider>
