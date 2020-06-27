@@ -50,6 +50,29 @@ const GlobalStyles = createGlobalStyle`
     width: 100%;
     margin-bottom: 0.5rem;
   }
+
+  .avatar {
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    overflow: hidden;
+    display: block;
+
+    &.large {
+      width: 3rem;
+      height: 3rem;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    &.medium {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
 `;
 
 export default GlobalStyles;

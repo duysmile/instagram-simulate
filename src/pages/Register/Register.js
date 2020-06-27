@@ -98,7 +98,7 @@ const Register = props => {
       <RegisterForm>
         <div>
           Bạn đã có tài khoản?
-          <Link to="/"> Đăng nhập</Link>
+          <Link to="/login"> Đăng nhập</Link>
         </div>
       </RegisterForm>
     </Wrapper>
