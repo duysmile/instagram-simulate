@@ -13,7 +13,7 @@
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "prop-types": "^15.7.2",
-    "qs": "^6.9.1",
+    "qs": "^6.9.7",
     "react": "^16.9.0",
     "react-app-polyfill": "^1.0.6",
     "react-bootstrap-sweetalert": "^5.1.9",
